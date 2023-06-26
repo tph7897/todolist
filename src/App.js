@@ -22,7 +22,7 @@ const App = () => {
   // 추가하기 버튼을 눌렀을 때
   const addTodoButtonHandler = () => {
     const newTodo = {
-      id: todos.length + 1,
+      id: todos.length + Math.random(),
       title: title,
       contents: contents,
       success: false
